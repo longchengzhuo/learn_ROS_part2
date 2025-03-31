@@ -1,0 +1,33 @@
+[0.551s] Invoking command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch': PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data
+[0.752s] running egg_info
+[0.753s] creating ../../build/py01_launch/py01_launch.egg-info
+[0.753s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[0.754s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.755s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.756s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.756s] running build
+[0.756s] running build_py
+[0.756s] creating /home/cl/CLionProjects/ws02_tools/build/py01_launch/build
+[0.756s] creating /home/cl/CLionProjects/ws02_tools/build/py01_launch/build/lib
+[0.756s] creating /home/cl/CLionProjects/ws02_tools/build/py01_launch/build/lib/py01_launch
+[0.756s] copying py01_launch/__init__.py -> /home/cl/CLionProjects/ws02_tools/build/py01_launch/build/lib/py01_launch
+[0.756s] running install
+[0.756s] running install_lib
+[0.757s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch
+[0.757s] copying /home/cl/CLionProjects/ws02_tools/build/py01_launch/build/lib/py01_launch/__init__.py -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch
+[0.757s] byte-compiling /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch/__init__.py to __init__.cpython-310.pyc
+[0.757s] running install_data
+[0.757s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index
+[0.758s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index
+[0.758s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[0.758s] copying resource/py01_launch -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[0.758s] copying package.xml -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[0.758s] running install_egg_info
+[0.759s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[0.760s] running install_scripts
+[0.779s] writing list of installed files to '/home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log'
+[0.803s] Invoked command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data
