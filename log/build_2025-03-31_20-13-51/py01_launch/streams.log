@@ -1,0 +1,28 @@
+[0.930s] Invoking command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data
+[1.204s] running egg_info
+[1.204s] creating ../../build/py01_launch/py01_launch.egg-info
+[1.204s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[1.205s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[1.205s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[1.205s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[1.205s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.206s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.207s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.207s] running build
+[1.207s] running install
+[1.207s] running install_data
+[1.207s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index
+[1.207s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index
+[1.207s] creating /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[1.207s] copying resource/py01_launch -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[1.208s] copying package.xml -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[1.208s] copying launch/py/py01_helloworld_launch.py -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[1.208s] copying launch/xml/xml01_helloworld_launch.xml -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[1.208s] copying launch/yaml/yaml01_helloworld_launch.yaml -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[1.208s] copying launch/yaml/test_launch.yaml -> /home/cl/CLionProjects/ws02_tools/install/py01_launch/share/py01_launch
+[1.208s] running install_egg_info
+[1.211s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[1.212s] running install_scripts
+[1.240s] writing list of installed files to '/home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log'
+[1.283s] Invoked command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data

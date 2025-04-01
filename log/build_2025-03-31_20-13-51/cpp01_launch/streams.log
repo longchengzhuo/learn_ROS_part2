@@ -1,0 +1,76 @@
+[0.018s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp01_launch
+[0.284s] -- The C compiler identification is GNU 11.4.0
+[0.284s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.737s] -- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.858s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.908s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.911s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.919s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.989s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.992s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.084s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.120s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.161s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.169s] -- Looking for pthread.h
+[1.245s] -- Looking for pthread.h - found
+[1.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.321s] -- Found Threads: TRUE  
+[1.378s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.475s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.476s] -- Added test 'lint_cmake' to check CMake code style
+[1.476s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.478s] -- Added test 'xmllint' to check XML markup files
+[1.479s] -- Configuring done
+[1.482s] -- Generating done
+[1.484s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp01_launch
+[1.492s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp01_launch
+[1.493s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp01_launch -- -j8 -l8
+[1.529s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp01_launch -- -j8 -l8
+[1.538s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp01_launch
+[1.545s] -- Install configuration: ""
+[1.545s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py01_helloworld_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py05_include_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py02_node_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py04_args_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py03_cmd_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py06_group_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/py/py07_event_launch.py
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yaml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/yaml/yaml01_helloworld_launch.yaml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml/xml02_node_launch.xml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/launch/xml/xml01_helloworld_launch.xml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/config
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/config/haha.yaml
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[1.546s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[1.547s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[1.549s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp01_launch

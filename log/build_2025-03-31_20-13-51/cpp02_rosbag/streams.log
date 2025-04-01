@@ -1,0 +1,79 @@
+[0.016s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.854s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.891s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.895s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.902s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.972s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.974s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.062s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.089s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.138s] -- Looking for pthread.h
+[1.210s] -- Looking for pthread.h - found
+[1.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.289s] -- Found Threads: TRUE  
+[1.345s] -- Found rosbag2_cpp: 0.15.13 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.378s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.396s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.490s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.490s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws02_tools/src/cpp02_rosbag/include>
+[1.490s] -- Configured cppcheck exclude dirs and/or files: 
+[1.490s] -- Added test 'lint_cmake' to check CMake code style
+[1.490s] -- Added test 'uncrustify' to check C / C++ code style
+[1.490s] -- Configured uncrustify additional arguments: 
+[1.490s] -- Added test 'xmllint' to check XML markup files
+[1.491s] -- Configuring done
+[1.505s] -- Generating done
+[1.514s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag
+[1.536s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag
+[1.537s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[1.576s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[1.576s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[4.385s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp02_rosbag/src/demo02_reader.cpp:[m[K In constructor ‘[01m[KSimpleBagPlay::SimpleBagPlay()[m[K’:
+[4.385s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp02_rosbag/src/demo02_reader.cpp:14:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktwist[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.385s]    14 |             auto [01;35m[Ktwist[m[K = reader_->read_next<geometry_msgs::msg::Twist>();
+[4.385s]       |                  [01;35m[K^~~~~[m[K
+[5.155s] [ 75%] [32m[1mLinking CXX executable demo02_reader[0m
+[5.289s] [ 75%] Built target demo02_reader
+[10.156s] [100%] [32m[1mLinking CXX executable demo01_writer[0m
+[10.543s] [100%] Built target demo01_writer
+[10.556s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[10.557s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag
+[10.563s] -- Install configuration: ""
+[10.563s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[10.565s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""
+[10.565s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[10.566s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[10.566s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[10.567s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[10.567s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[10.567s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[10.567s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[10.567s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[10.569s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag

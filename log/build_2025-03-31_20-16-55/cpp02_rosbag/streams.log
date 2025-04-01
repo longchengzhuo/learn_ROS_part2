@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target demo02_reader[0m
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[0.259s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[0.259s] [ 75%] Built target demo01_writer
+[3.133s] [100%] [32m[1mLinking CXX executable demo02_reader[0m
+[3.260s] [100%] Built target demo02_reader
+[3.273s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag -- -j8 -l8
+[3.275s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag
+[3.281s] -- Install configuration: ""
+[3.281s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[3.282s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[3.282s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[3.282s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[3.283s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[3.283s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[3.285s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp02_rosbag
