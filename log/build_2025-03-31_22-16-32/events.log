@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (PROJECT_NAME) JobQueued: {'identifier': 'PROJECT_NAME', 'dependencies': OrderedDict()}
+[0.000225] (PROJECT_NAME) JobStarted: {'identifier': 'PROJECT_NAME'}
+[0.005844] (PROJECT_NAME) JobProgress: {'identifier': 'PROJECT_NAME', 'progress': 'cmake'}
+[0.006161] (PROJECT_NAME) Command: {'cmd': ['/usr/bin/cmake', '/home/cl/CLionProjects/ws02_tools', '-DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/PROJECT_NAME'], 'cwd': '/home/cl/CLionProjects/ws02_tools/build/PROJECT_NAME', 'env': OrderedDict([('TERM_SESSION_ID', 'f7483bdd-f00d-4aae-8beb-f74fa3fa9c01'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cl'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/cl/CLionProjects/ws02_tools/src'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/cl/.local/share/applications/jetbrains-clion-16516bac-4727-40be-a5b8-93410b335480.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1905'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14123'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/cl/CLionProjects/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cl'), ('JOURNAL_STREAM', '8:17497'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('CMAKE_MAKE_PROGRAM', '/usr/bin/ninja'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/cl/miniconda3/bin:/home/cl/miniconda3/condabin:/opt/ros/humble/bin:/home/cl/.local/bin:/home/cl/.juliaup/bin:/home/cl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cl/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/chengzhuo-ubuntu:@/tmp/.ICE-unix/1877,unix/chengzhuo-ubuntu:/tmp/.ICE-unix/1877'), ('INVOCATION_ID', '381d075fc24f4f68965f694da00b66fa'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion 2024.3.2/1905-3-chengzhuo-ubuntu_TIME9228931'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster:/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag:/home/cl/CLionProjects/ws02_tools/install/cpp01_launch:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cl/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cl/CLionProjects/ws02_tools/build/PROJECT_NAME'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cl/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('CONDA_PREFIX', '/home/cl/miniconda3'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster:/home/cl/CLionProjects/ws02_tools/install/cpp02_rosbag:/home/cl/CLionProjects/ws02_tools/install/cpp01_launch')]), 'shell': False}
+[0.049182] (PROJECT_NAME) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093917] (PROJECT_NAME) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099610] (-) TimerEvent: {}
+[0.099868] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.154747] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161785] (PROJECT_NAME) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.162019] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.162291] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164852] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199703] (-) TimerEvent: {}
+[0.226815] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.233505] (PROJECT_NAME) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233747] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234076] (PROJECT_NAME) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.234635] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0msearch criteria: BUILD_BASE;/home/cl/CLionProjects/ws02_tools/build;BASE_PATHS;/home/cl/CLionProjects/ws02_tools/src/;--packages-select;cpp03_tf_broadcaster\x1b[0m\n'}
+[0.299776] (-) TimerEvent: {}
+[0.399997] (-) TimerEvent: {}
+[0.500243] (-) TimerEvent: {}
+[0.600543] (-) TimerEvent: {}
+[0.669261] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0mcolcon shows paths /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster\x1b[0m\n'}
+[0.669576] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0m...examining /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster\x1b[0m\n'}
+[0.700627] (-) TimerEvent: {}
+[0.800909] (-) TimerEvent: {}
+[0.901123] (-) TimerEvent: {}
+[1.001380] (-) TimerEvent: {}
+[1.042048] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0m...adding package cpp03_tf_broadcaster from path /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster\x1b[0m\n'}
+[1.042256] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0mpackage info: path: /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster\n'}
+[1.042349] (PROJECT_NAME) StderrLine: {'line': b'  type: ros.ament_cmake\n'}
+[1.042400] (PROJECT_NAME) StderrLine: {'line': b'  name: cpp03_tf_broadcaster\n'}
+[1.042449] (PROJECT_NAME) StderrLine: {'line': b'  dependencies:\n'}
+[1.042496] (PROJECT_NAME) StderrLine: {'line': b'    build: ament_cmake geometry_msgs rclcpp tf2 tf2_ros turtlesim\n'}
+[1.042543] (PROJECT_NAME) StderrLine: {'line': b'    run: geometry_msgs rclcpp tf2 tf2_ros turtlesim\n'}
+[1.042614] (PROJECT_NAME) StderrLine: {'line': b'    test: ament_lint_auto ament_lint_common\n'}
+[1.042665] (PROJECT_NAME) StderrLine: {'line': b'  metadata:\n'}
+[1.042711] (PROJECT_NAME) StderrLine: {'line': b"    maintainers: ['cl <chengzhuolong@outlook.com>']\n"}
+[1.042756] (PROJECT_NAME) StderrLine: {'line': b'    version: 0.0.0\n'}
+[1.042801] (PROJECT_NAME) StderrLine: {'line': b'\x1b[0m\n'}
+[1.044227] (PROJECT_NAME) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102087] (-) TimerEvent: {}
+[1.202503] (-) TimerEvent: {}
+[1.303091] (-) TimerEvent: {}
+[1.403467] (-) TimerEvent: {}
+[1.503792] (-) TimerEvent: {}
+[1.604217] (-) TimerEvent: {}
+[1.691817] (PROJECT_NAME) StdoutLine: {'line': b'-- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter \n'}
+[1.704364] (-) TimerEvent: {}
+[1.804760] (-) TimerEvent: {}
+[1.815245] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.861312] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.867439] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.876373] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.890670] (PROJECT_NAME) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904871] (-) TimerEvent: {}
+[1.909552] (PROJECT_NAME) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.985007] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.988879] (PROJECT_NAME) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.005091] (-) TimerEvent: {}
+[2.106499] (-) TimerEvent: {}
+[2.166994] (PROJECT_NAME) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.205834] (-) TimerEvent: {}
+[2.211568] (PROJECT_NAME) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.274323] (PROJECT_NAME) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.289009] (PROJECT_NAME) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.305913] (-) TimerEvent: {}
+[2.363253] (PROJECT_NAME) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.363499] (PROJECT_NAME) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.406007] (-) TimerEvent: {}
+[2.438793] (PROJECT_NAME) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.439871] (PROJECT_NAME) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.495343] (PROJECT_NAME) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.506137] (-) TimerEvent: {}
+[2.521792] (PROJECT_NAME) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.606261] (-) TimerEvent: {}
+[2.619419] (PROJECT_NAME) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.637554] (PROJECT_NAME) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.706349] (-) TimerEvent: {}
+[2.726238] (PROJECT_NAME) CommandEnded: {'returncode': -2}
+[2.726860] (PROJECT_NAME) JobEnded: {'identifier': 'PROJECT_NAME', 'rc': 'SIGINT'}
+[2.737312] (-) EventReactorShutdown: {}

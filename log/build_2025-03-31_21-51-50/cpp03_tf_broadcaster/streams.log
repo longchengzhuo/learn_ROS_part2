@@ -1,0 +1,71 @@
+[0.047s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster
+[0.306s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.308s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.719s] -- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.815s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.849s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.853s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.860s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.925s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.926s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.009s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.036s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.077s] -- Looking for pthread.h
+[1.142s] -- Looking for pthread.h - found
+[1.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.208s] -- Found Threads: TRUE  
+[1.301s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.326s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.419s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.436s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.523s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.523s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster/include>
+[1.524s] -- Configured cppcheck exclude dirs and/or files: 
+[1.524s] -- Added test 'lint_cmake' to check CMake code style
+[1.525s] -- Added test 'uncrustify' to check C / C++ code style
+[1.525s] -- Configured uncrustify additional arguments: 
+[1.525s] -- Added test 'xmllint' to check XML markup files
+[1.526s] -- Configuring done
+[1.536s] -- Generating done
+[1.539s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster
+[1.548s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster
+[1.549s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+[1.586s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[4.200s] [100%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[4.336s] [100%] Built target demo01_static_tf_broadcaster
+[4.350s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster -- -j8 -l8
+[4.351s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster
+[4.359s] -- Install configuration: ""
+[4.359s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[4.359s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[4.359s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[4.359s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[4.360s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[4.361s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[4.363s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp03_tf_broadcaster

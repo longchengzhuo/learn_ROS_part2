@@ -1,0 +1,21 @@
+[1.237s] Invoking command in '/home/cl/CLionProjects/ws02_tools/src/py02_rosbag': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/cl/CLionProjects/ws02_tools/build/py02_rosbag/build install --record /home/cl/CLionProjects/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed install_data
+[1.547s] running egg_info
+[1.548s] writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+[1.549s] writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+[1.549s] writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+[1.549s] writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+[1.552s] reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.554s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[1.554s] running build
+[1.554s] running build_py
+[1.555s] running install
+[1.555s] running install_lib
+[1.557s] running install_data
+[1.557s] running install_egg_info
+[1.560s] removing '/home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info' (and everything under it)
+[1.560s] Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info
+[1.561s] running install_scripts
+[1.589s] Installing demo01_writer_py script to /home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+[1.590s] writing list of installed files to '/home/cl/CLionProjects/ws02_tools/build/py02_rosbag/install.log'
+[1.642s] Invoked command in '/home/cl/CLionProjects/ws02_tools/src/py02_rosbag' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/cl/CLionProjects/ws02_tools/build/py02_rosbag/build install --record /home/cl/CLionProjects/ws02_tools/build/py02_rosbag/install.log --single-version-externally-managed install_data
