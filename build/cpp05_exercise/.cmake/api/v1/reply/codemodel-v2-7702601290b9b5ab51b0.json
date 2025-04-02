@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c1df0b55550a80e6fe1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp05_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp05_exercise_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp05_exercise_uninstall-9ebffcf0a1d3393394d5.json",
+					"name" : "cpp05_exercise_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer01_spawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer01_spawn-355aa77f26728e5009a6.json",
+					"name" : "exer01_spawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer02_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer02_tf_broadcaster-8c184e57db2ccc12ae9d.json",
+					"name" : "exer02_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer03_tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer03_tf_listener-64b6f091d5ada2745b24.json",
+					"name" : "exer03_tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f89cd819ed9b825491a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise",
+		"source" : "/home/cl/CLionProjects/ws02_tools/src/cpp05_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,15 @@
+[0msearch criteria: BUILD_BASE;/home/cl/CLionProjects/ws02_tools/build;BASE_PATHS;/home/cl/CLionProjects/ws02_tools/src/;--packages-select;cpp03_tf_broadcaster[0m
+[0mcolcon shows paths /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster[0m
+[0m...examining /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster[0m
+[0m...adding package cpp03_tf_broadcaster from path /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster[0m
+[0mpackage info: path: /home/cl/CLionProjects/ws02_tools/src/cpp03_tf_broadcaster
+  type: ros.ament_cmake
+  name: cpp03_tf_broadcaster
+  dependencies:
+    build: ament_cmake geometry_msgs rclcpp tf2 tf2_ros turtlesim
+    run: geometry_msgs rclcpp tf2 tf2_ros turtlesim
+    test: ament_lint_auto ament_lint_common
+  metadata:
+    maintainers: ['cl <chengzhuolong@outlook.com>']
+    version: 0.0.0
+[0m

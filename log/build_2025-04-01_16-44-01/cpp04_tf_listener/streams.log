@@ -1,0 +1,52 @@
+[0.031s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.376s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.377s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.377s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.377s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.377s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.377s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.377s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.573s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.607s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.730s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.735s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.737s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.743s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.968s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.970s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/include>
+[0.970s] -- Configured cppcheck exclude dirs and/or files: 
+[0.970s] -- Added test 'lint_cmake' to check CMake code style
+[0.971s] -- Added test 'uncrustify' to check C / C++ code style
+[0.972s] -- Configured uncrustify additional arguments: 
+[0.972s] -- Added test 'xmllint' to check XML markup files
+[0.974s] -- Configuring done
+[1.005s] -- Generating done
+[1.016s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target demo02_msg_filter[0m
+[1.059s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[1.075s] [ 50%] Built target demo02_msg_filter
+[1.084s] [100%] Built target demo01_tf_listener
+[1.098s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[1.100s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+[1.110s] -- Install configuration: ""
+[1.110s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[1.111s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter
+[1.111s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[1.111s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[1.111s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[1.112s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[1.112s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[1.112s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[1.112s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[1.112s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[1.113s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[1.113s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[1.113s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[1.113s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[1.113s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[1.113s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[1.113s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[1.115s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener

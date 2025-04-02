@@ -1,0 +1,2 @@
+Invoking command in '/home/cl/CLionProjects/ws02_tools/build/PROJECT_NAME': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/PROJECT_NAME
+Invoked command in '/home/cl/CLionProjects/ws02_tools/build/PROJECT_NAME' returned '-2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/PROJECT_NAME

@@ -1,0 +1,18 @@
+[1.056s] Invoking command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data
+[1.301s] running egg_info
+[1.302s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[1.303s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[1.304s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.305s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.305s] running build
+[1.305s] running install
+[1.305s] running install_data
+[1.306s] running install_egg_info
+[1.308s] removing '/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.308s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[1.309s] running install_scripts
+[1.330s] writing list of installed files to '/home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log'
+[1.368s] Invoked command in '/home/cl/CLionProjects/ws02_tools/src/py01_launch' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cl/CLionProjects/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cl/CLionProjects/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/cl/CLionProjects/ws02_tools/build/py01_launch/build install --record /home/cl/CLionProjects/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data

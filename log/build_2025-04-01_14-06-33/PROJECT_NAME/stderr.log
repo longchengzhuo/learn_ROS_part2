@@ -1,0 +1,15 @@
+[0msearch criteria: BUILD_BASE;/home/cl/CLionProjects/ws02_tools/build;BASE_PATHS;/home/cl/CLionProjects/ws02_tools/src/;--packages-select;cpp04_tf_listener[0m
+[0mcolcon shows paths /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener[0m
+[0m...examining /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener[0m
+[0m...adding package cpp04_tf_listener from path /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener[0m
+[0mpackage info: path: /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener
+  type: ros.ament_cmake
+  name: cpp04_tf_listener
+  dependencies:
+    build: ament_cmake geometry_msgs message_filters rclcpp tf2 tf2_geometry_msgs tf2_ros
+    run: geometry_msgs message_filters rclcpp tf2 tf2_geometry_msgs tf2_ros
+    test: ament_lint_auto ament_lint_common
+  metadata:
+    maintainers: ['cl <chengzhuolong@outlook.com>']
+    version: 0.0.0
+[0m

@@ -1,0 +1,111 @@
+[0.023s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener
+[0.324s] -- The C compiler identification is GNU 11.4.0
+[0.324s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.759s] -- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.896s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.939s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.952s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.983s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.031s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.148s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.204s] -- Looking for pthread.h
+[1.271s] -- Looking for pthread.h - found
+[1.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.346s] -- Found Threads: TRUE  
+[1.396s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.417s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.497s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.596s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/include>
+[1.596s] -- Configured cppcheck exclude dirs and/or files: 
+[1.597s] -- Added test 'lint_cmake' to check CMake code style
+[1.598s] -- Added test 'uncrustify' to check C / C++ code style
+[1.598s] -- Configured uncrustify additional arguments: 
+[1.598s] -- Added test 'xmllint' to check XML markup files
+[1.600s] -- Configuring done
+[1.613s] -- Generating done
+[1.619s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+[1.632s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener
+[1.633s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[1.680s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[4.203s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.204s]                  from [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1[m[K:
+[4.204s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::on_timer()[m[K’:
+[4.204s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:21:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.204s]    21 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"frame_id:%s,child_frame_id:%s,offset:(%.2f,%.2f,%.2f)"[m[K,
+[4.204s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.204s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:21:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.204s]    21 |             RCLCPP_INFO(this->get_logger(),"frame_id:[01;36m[K%s[m[K,child_frame_id:%s,offset:(%.2f,%.2f,%.2f)",
+[4.204s]       |                                                      [01;36m[K~^[m[K
+[4.204s]       |                                                       [01;36m[K|[m[K
+[4.204s]       |                                                       [01;36m[Kchar*[m[K
+[4.204s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.204s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.205s]                  from [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:1[m[K:
+[4.205s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:21:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_child_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.205s]    21 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"frame_id:%s,child_frame_id:%s,offset:(%.2f,%.2f,%.2f)"[m[K,
+[4.205s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.205s] [01m[K/home/cl/CLionProjects/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:21:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.205s]    21 |             RCLCPP_INFO(this->get_logger(),"frame_id:%s,child_frame_id:[01;36m[K%s[m[K,offset:(%.2f,%.2f,%.2f)",
+[4.205s]       |                                                                        [01;36m[K~^[m[K
+[4.205s]       |                                                                         [01;36m[K|[m[K
+[4.205s]       |                                                                         [01;36m[Kchar*[m[K
+[10.247s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[10.620s] [100%] Built target demo01_tf_listener
+[10.632s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[10.633s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+[10.639s] -- Install configuration: ""
+[10.639s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[10.641s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[10.641s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[10.642s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[10.644s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener

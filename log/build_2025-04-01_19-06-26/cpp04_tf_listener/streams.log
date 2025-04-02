@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.340s] [ 50%] Built target demo01_tf_listener
+[0.340s] [100%] Built target demo02_msg_filter
+[0.641s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+[0.643s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+[0.672s] -- Install configuration: ""
+[0.672s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[0.672s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter
+[0.673s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[0.674s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[0.675s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[0.675s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[0.675s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[0.680s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[0.680s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[0.680s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[0.680s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[0.804s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener

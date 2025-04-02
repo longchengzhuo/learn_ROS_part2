@@ -1,0 +1,15 @@
+[0msearch criteria: BUILD_BASE;/home/cl/CLionProjects/ws02_tools/build;BASE_PATHS;/home/cl/CLionProjects/ws02_tools/src/;--packages-select;cpp05_exercise[0m
+[0mcolcon shows paths /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise[0m
+[0m...examining /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise[0m
+[0m...adding package cpp05_exercise from path /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise[0m
+[0mpackage info: path: /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise
+  type: ros.ament_cmake
+  name: cpp05_exercise
+  dependencies:
+    build: ament_cmake geometry_msgs rclcpp tf2 tf2_ros turtlesim
+    run: geometry_msgs rclcpp ros2launch tf2 tf2_ros turtlesim
+    test: ament_lint_auto ament_lint_common
+  metadata:
+    maintainers: ['cl <chengzhuolong@outlook.com>']
+    version: 0.0.0
+[0m

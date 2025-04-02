@@ -1,0 +1,82 @@
+[0.029s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise
+[0.372s] -- The C compiler identification is GNU 11.4.0
+[0.372s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.000s] -- Found Python3: /home/cl/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[1.153s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.204s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.210s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.220s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.317s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.423s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.451s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.509s] -- Looking for pthread.h
+[1.657s] -- Looking for pthread.h - found
+[1.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.816s] -- Found Threads: TRUE  
+[1.936s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.991s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.188s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[2.236s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.432s] -- Configured cppcheck include dirs: 
+[2.433s] -- Configured cppcheck exclude dirs and/or files: 
+[2.434s] -- Added test 'lint_cmake' to check CMake code style
+[2.437s] -- Added test 'uncrustify' to check C / C++ code style
+[2.437s] -- Configured uncrustify additional arguments: 
+[2.439s] -- Added test 'xmllint' to check XML markup files
+[2.440s] -- Configuring done
+[2.468s] -- Generating done
+[2.486s] -- Build files have been written to: /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise
+[2.508s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/cl/CLionProjects/ws02_tools/src/cpp05_exercise -DCMAKE_INSTALL_PREFIX=/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise
+[2.514s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[2.597s] [ 16%] [32mBuilding CXX object CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o[0m
+[2.597s] [ 33%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[2.598s] [ 50%] [32mBuilding CXX object CMakeFiles/exer02_tf_broadcaster.dir/src/exer02_tf_broadcaster.cpp.o[0m
+[6.590s] [ 66%] [32m[1mLinking CXX executable exer03_tf_listener[0m
+[6.766s] [ 83%] [32m[1mLinking CXX executable exer02_tf_broadcaster[0m
+[6.793s] [ 83%] Built target exer03_tf_listener
+[6.966s] [ 83%] Built target exer02_tf_broadcaster
+[7.577s] [100%] [32m[1mLinking CXX executable exer01_spawn[0m
+[7.748s] [100%] Built target exer01_spawn
+[7.760s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[7.762s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise
+[7.768s] -- Install configuration: ""
+[7.768s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn
+[7.768s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn" to ""
+[7.768s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[7.769s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster" to ""
+[7.769s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[7.769s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener" to ""
+[7.769s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch
+[7.769s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[7.769s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[7.769s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[7.770s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[7.771s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[7.771s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[7.773s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise

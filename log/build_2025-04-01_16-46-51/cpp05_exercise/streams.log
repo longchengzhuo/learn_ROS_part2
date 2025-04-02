@@ -1,0 +1,31 @@
+[0.025s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target exer01_spawn[0m
+[0.269s] [ 33%] Built target exer03_tf_listener
+[0.270s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[0.270s] [ 83%] Built target exer02_tf_broadcaster
+[3.172s] [100%] [32m[1mLinking CXX executable exer01_spawn[0m
+[3.303s] [100%] Built target exer01_spawn
+[3.315s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+[3.316s] Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise
+[3.322s] -- Install configuration: ""
+[3.322s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn
+[3.323s] -- Set runtime path of "/home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn" to ""
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/launch
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[3.323s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[3.324s] -- Installing: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[3.324s] -- Up-to-date: /home/cl/CLionProjects/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[3.326s] Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cl/CLionProjects/ws02_tools/install/py02_rosbag:/home/cl/CLionProjects/ws02_tools/install/py01_launch:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise
