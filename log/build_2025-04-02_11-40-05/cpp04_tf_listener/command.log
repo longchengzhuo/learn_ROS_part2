@@ -1,0 +1,4 @@
+Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener -- -j8 -l8
+Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener
+Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp04_tf_listener

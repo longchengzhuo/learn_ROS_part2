@@ -1,0 +1,4 @@
+Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise -- -j8 -l8
+Invoking command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise
+Invoked command in '/home/cl/CLionProjects/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cl/CLionProjects/ws02_tools/build/cpp05_exercise

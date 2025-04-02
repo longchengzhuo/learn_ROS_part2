@@ -1,0 +1,17 @@
+<robot name="ddemo02_link">
+    <material name="yellow">
+        <color rgba="0.8 0.6 0.2 0.5"/>
+    </material>
+    <link name="base_link">
+        <visual>
+            <geometry>
+<!--                <box size="0.0 0.0 0.0"/>-->
+<!--                <sphere radius="0.5"/>-->
+<!--                <cylinder radius="0.1" length="2.0"/>-->
+                <mesh filename="package://cpp06_urdf/meshes/burger_base.stl" scale="1.0 1.0 1.0"/>
+            </geometry>
+            <origin xyz="1 0 0" rpy="0.0 0.0 0.0"/>
+            <material name="yellow"/>
+        </visual>
+    </link>
+</robot>

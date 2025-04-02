@@ -1,0 +1,6 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo02_pro">
+    <xacro:property name="num1" value="10"/>
+    <xacro:property name="num2" value="20"/>
+    <car length="${num1}" width="${num2}"/>
+    <sum value="${num1 + num2}"/>
+</robot>
